@@ -12,9 +12,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: all 1s ease;
 
     &.active{
         right: 0;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 40px;
+        color: white;
+
+        li{
+            a{
+                font-size: inherit;
+                color: inherit;
+                text-decoration: none;
+            }
+        
+        }
     }
 
 }

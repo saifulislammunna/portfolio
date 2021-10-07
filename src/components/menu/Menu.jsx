@@ -14,9 +14,7 @@
                 <li>
                     <a href="#works">Works</a>
                 </li>
-                <li>
-                    <a href="#intro">Home</a>
-                </li>
+                 
                 <li>
                     <a href="#testimonials">Testimonials</a>
                 </li>
