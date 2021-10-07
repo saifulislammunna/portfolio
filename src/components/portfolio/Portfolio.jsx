@@ -17,6 +17,26 @@ const Portfolio = () => {
                     <img src="assets/html51.jpg " alt="" />
                     <h3>Html</h3>
                 </div>
+                <div className="item">
+                    <img src="assets/html51.jpg " alt="" />
+                    <h3>Html</h3>
+                </div>
+                <div className="item">
+                    <img src="assets/html51.jpg " alt="" />
+                    <h3>Html</h3>
+                </div>
+                <div className="item">
+                    <img src="assets/html51.jpg " alt="" />
+                    <h3>Html</h3>
+                </div>
+                <div className="item">
+                    <img src="assets/html51.jpg " alt="" />
+                    <h3>Html</h3>
+                </div>
+                <div className="item">
+                    <img src="assets/html51.jpg " alt="" />
+                    <h3>Html  </h3>
+                </div>
             </div>
         </div>
     );
