@@ -14,19 +14,7 @@
         list-style: none;
         display: flex;
     }
-    li{
-        font-size: 18px;
-        margin-right: 5px;
-        padding:  7px;
-        border-radius: 10px;
-        cursor: pointer;
-
-
-        &.active{
-              background-color: $maincolor;
-              color: white;
-        }
-    }
+    
     .container{
         width: 70%;
         display: flex;
