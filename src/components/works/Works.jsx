@@ -12,7 +12,7 @@ import './works.scss'
                                          <img src="assets/images.jpg" alt="" />
                                      </div>
                                      <h2>Plane Html & css</h2>
-                                     <p>order different types of recipes</p>
+                                     <p>order different types of food recipes</p>
                                      <span>projects</span>
                                  </div>
                              </div>

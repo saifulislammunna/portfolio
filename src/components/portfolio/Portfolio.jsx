@@ -37,7 +37,7 @@ const Portfolio = () => {
 
     return (
         <div  className="portfolio" id="portfolio">
-            <h1>Portfolio</h1>
+            <h1>Skills</h1>
             <ul>
                 {list.map(item => (
                     <PortfolioList title={item.title} 
@@ -69,7 +69,7 @@ const Portfolio = () => {
                 </div>
                 <div className="item">
                     <img src="assets/nodejs.png " alt="" />
-                    <h3>Node js 92% </h3>
+                    <h3>Node js 20% </h3>
                 </div>
             </div>
         </div>
