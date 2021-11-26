@@ -114,8 +114,11 @@
                     overflow: hidden;
 
                     img{
-                        width: 400px;
-                        transform: rotate(-10deg);
+                        width: 130px;
+                        // transform: rotate(-10deg);
+                        img:hover{
+                            transform: rotate(-10deg);
+                        }
                     }
                      
 

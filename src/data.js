@@ -5,7 +5,7 @@
 //     },
 // ]
 
-export const projects =[
+/* export const projects = [
     {
         id : 1,
         title: "plane Html & Css",
@@ -36,4 +36,4 @@ export const projects =[
         title: "plane Html & Css",
         img: "https://i.ibb.co/NY8GgQG/Food-network.jpg",
     },
-]
+] */

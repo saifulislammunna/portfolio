@@ -1,9 +1,17 @@
-import React, { useState } from 'react';
+import React, {  /* useEffect, */  useState }from 'react';
  import PortfolioList from '../portfolioList/PortfolioList';
 import './portfolio.scss'
 const Portfolio = () => {
-   const [selected,setSelected] = useState("featured")
-    const list = [
+   const [selected,setSelected] = useState("featured");
+   /* const [lists, setLists] = useState([]);
+    
+   
+   useEffect(() => {
+       fetch('https://guarded-beach-88441.herokuapp.com/lists')
+           .then(res => res.json())
+           .then(data => setLists(data));
+   }, []); */  
+      const list = [
     {
         id: "featured",
         title: "Featured",
@@ -33,7 +41,7 @@ const Portfolio = () => {
         title: "Node js",
     }
     
-]
+]    
 
     return (
         <div  className="portfolio" id="portfolio">
@@ -69,7 +77,7 @@ const Portfolio = () => {
                 </div>
                 <div className="item">
                     <img src="assets/nodejs.png " alt="" />
-                    <h3>Node js 20% </h3>
+                    <h3>Node js 60% </h3>
                 </div>
             </div>
         </div>

@@ -1,6 +1,9 @@
  
 import React, { useState } from 'react';
-import './contact.scss'
+import Footer from '../footer/Footer';
+import './contact.scss';
+ 
+
 const Contact = () => {
    
     const [message,setMessage] = useState(false)
@@ -11,7 +14,8 @@ const Contact = () => {
         setMessage(true)
     }
     return (
-        <div className="contact" id="contact">
+       <div>
+            <div className="contact" id="contact">
            <div className="left">
                  <img src="assets/shake3.png" alt="" />
            </div>
@@ -24,6 +28,8 @@ const Contact = () => {
                    {message && <span>Thanks, I'll reply ASAP:)</span>}
                </form>
            </div>
+       </div>
+          <Footer/>   
         </div>
     );
 };
