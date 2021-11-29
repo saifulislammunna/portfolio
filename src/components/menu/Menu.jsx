@@ -12,14 +12,14 @@
                     <a href="#portfolio">Skills</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#works">Works</a>
+                    <a href="#works">Projects</a>
                 </li>
                  
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#testimonials">Testimonials</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact">Contact Me</a>
                 </li>
             </ul>
          </div>

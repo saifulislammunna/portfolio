@@ -52,11 +52,12 @@
             align-items: center;
 
         }
+        
 
 
          h1{
              font-size: 60PX;
-             margin: 10PX 0;
+             margin: 10px 0;
              @include mobile{
                  font-size: 40px;
              }
@@ -90,10 +91,17 @@
                  
              }
          }
+         button{
+              
+              width: 200px;
+              height: 50px;
+              
+               
+         }
 
 
         }
-        a{
+        /* a{
           position: absolute;
           bottom: 10px;
           left: 40%;
@@ -106,6 +114,6 @@
                   opacity: 0;
               }
           }
-        }
+        } */
     }
 }
