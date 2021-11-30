@@ -1,8 +1,10 @@
  
 import './works.scss';
  import React, { useEffect, useState } from 'react';
-
- export default function Works() {
+  
+ 
+  
+ export default function Works( ) {
     const [works, setWorks] = useState([]);
     const  [ currentSlide, setCurrentSlide] = useState(0);
     
@@ -11,28 +13,35 @@ import './works.scss';
             .then(res => res.json())
             .then(data => setWorks(data));
     }, []);
+   /*  console.log(works);
+    const {_id} = works;
+    console.log({_id}); */
 
     const handleClick = (way) => {
         way === "left"
           ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
           : setCurrentSlide(currentSlide < works.length - 1 ? currentSlide + 1 : 0);
       };
-      
+    
+  
     return (
         <div className="works" id="works"> 
+                        
                  <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
                      
                       {works.map((work )=>   (
-
+                      
                      <div className="container">
+                          
                          <div className="item">
+                        
                              <div className="left">
+                             
                                  <div className="leftContainer">
-                                     <div className="imgContainer">
-                                          <img src={work.icon} alt="" />  
-                                     </div>
+                                 <p style={{ color:'red'}}>Project</p>
                                        <h2>{work.name}</h2>
-                                     <p>{work.description}</p>  
+                                     <p>{work.description}</p> 
+                                      <button  >Detail</button>    
                                      <a href={work.link}><span>project link </span></a>
                                  </div>
                              </div>
